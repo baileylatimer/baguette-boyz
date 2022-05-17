@@ -1,0 +1,5 @@
+.scrolling-text {
+  transform: translateX(100%);
+  animation: move 40s linear infinite;
+  -webkit-animation: move 40s linear infinite;
+}
