@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
     <ContextProvider>
       <GlobalStyle />
         <div class="noise"></div>
-        <Navigation siteTitle={data.site.siteMetadata.title} />
+        <Navigation siteTitle='Baguette Boyz' />
           <div>
             <Wrapper>
               {children}
