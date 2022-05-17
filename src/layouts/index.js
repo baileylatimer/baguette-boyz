@@ -14,26 +14,6 @@ const Wrapper = styled.div`
 `
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(
-    graphql`
-    {
-      allShopifyPage {
-        nodes {
-          title
-          handle
-        }
-      }
-  
- 
-          site {
-            siteMetadata {
-              title
-            }
-          }
-        
-      }
-
-   `)
   
   return (
     <ContextProvider>
