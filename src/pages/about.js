@@ -8,7 +8,7 @@ import Img from "~/components/pic"
 import Image from "../components/pic"
 import Hero from "~/components/hero"
 import ScrollingText from "~/components/scrolling-text"
-import Pieces from "~/components/pieces"
+import Team from "~/components/team"
 import Social from "~/components/social"
 import Faq from "~/components/faq"
 import Footer2 from "~/components/footer-2"
@@ -35,13 +35,10 @@ return (
     <section class="project-page  flex flex-column items-center">
 
       <div class="hero margin-top-xxl">
-        <h1 class="text-xxxxl color-contrast-higher  text-center font-display">Baguette Boyz</h1>
+        <h1 class="text-xxxxl color-contrast-higher  text-center font-display">About</h1>
       </div>
-      <Hero />
+      <Team />
       <ScrollingText />
-      <Pieces />
-      <Social />
-      <Faq />
       <Footer2 />
       <Snowflakes />
 
