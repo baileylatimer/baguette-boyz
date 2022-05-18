@@ -16,7 +16,7 @@ class Hero extends React.Component {
 
           </div>
           <div class="col-10 border-left flex-column justify-between  height-100% width-100%">
-            <div class="border-bottom flex items-center justify-center">
+            <div class="border-bottom flex items-center justify-center padding-sm">
               <h2 class="text-nowrap">114 days</h2>
             </div>
             <div class="icebox">

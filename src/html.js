@@ -21,26 +21,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-
-        <script dangerouslySetInnerHTML= {{ __html:`
-
-
-          document.addEventListener("mousemove", function(event) {
-            const x = event.pageX - 10;
-            const y = event.pageY - 10;
-            const cursor = document.querySelector("#cursor");
-            cursor.style.left = x + "px";
-            cursor.style.top = y + "px";
-          });
-
-          $('div').on("mouseover", function(){
-            $('#cursor').css({'transform': 'scale(2)'});
-          });
-
-          document.body.style.cursor = 'none';
-          
-        `}} />
-
       </body>
     </html>
   )
