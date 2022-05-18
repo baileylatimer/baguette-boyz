@@ -24,7 +24,7 @@ const Navigation = ({ siteTitle }) => {
 	return(
 	<header className="width-100vw border-bottom position-fixed z-index-3 flex justify-center">
 			<Container class="flex justify-between width-100%">
-				<MenuLink className="glitch color-contrast-higher font-display" data-text='Baguette Boyz' to='/'>
+				<MenuLink className="glitch color-contrast-higher font-display hide show@lg" data-text='Baguette Boyz' to='/'>
 					Baguette Boyz
 				</MenuLink>
         <div class="menu-right flex items-center">
