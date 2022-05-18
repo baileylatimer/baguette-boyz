@@ -27,6 +27,9 @@ const Navigation = ({ siteTitle }) => {
 				<MenuLink className="glitch color-contrast-higher font-display hide show@lg" data-text='Baguette Boyz' to='/'>
 					Baguette Boyz
 				</MenuLink>
+        <MenuLink className="glitch color-contrast-higher font-display hide@lg" data-text='BB' to='/'>
+					BB
+				</MenuLink>
         <div class="menu-right flex items-center">
           <MenuLink className="color-contrast-higher" data-text='About' to='/about'>
           About
