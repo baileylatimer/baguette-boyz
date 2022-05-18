@@ -2,6 +2,7 @@ import React from 'react';
 import Slashes from "~/components/elements/slashes"
 import Discord from "~/components/elements/discord"
 import Twitter from "~/components/elements/twitter"
+import SocialArt from "~/images/art/social.png"
 
 class Social extends React.Component {
 
@@ -22,7 +23,7 @@ class Social extends React.Component {
           </div>
         </div>
         <div class="grid border-bottom">
-          <div class="col-12 border-right card">
+          <div class="col-12 border-right card"  style={{backgroundImage: `url(${SocialArt})`}}>
             
           </div>
         </div>
