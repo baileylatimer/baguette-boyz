@@ -1,3 +1,10 @@
 .card {
   height: 550px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  background-origin: content-box;
+  background-clip: content-box; /*don't show on the padding*/
+  padding: var(--space-lg);
 }

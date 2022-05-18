@@ -1,6 +1,7 @@
 import React from 'react';
 import Slashes from "~/components/elements/slashes"
 import Image from "~/components/pic"
+import Art from "../images/art/sample-art.png"
 
 class Pieces extends React.Component {
 
@@ -16,7 +17,7 @@ class Pieces extends React.Component {
             <h2 class="">001</h2>
             <Slashes />
           </div>
-          <div class="border-left border-right col-4@lg col-8 flex justify-center  items-center padding-sm">
+          <div class="border-left border-right col-4@lg col-8 flex justify-center items-center padding-sm">
             <h2 class="">Pieces</h2>
           </div>
           <div class="col-4 hide show@lg  justify-center items-center padding-sm">
@@ -25,20 +26,19 @@ class Pieces extends React.Component {
         </div>
         <div class="grid border-bottom">
           <div class="flex col-6@lg col-12">
-            <div class="width-50% border card">
-            <Image filename="art/sample-art.png" />
+            <div class="width-50% border card" style={{backgroundImage: `url(${Art})`}}>
             </div>
           
-              <div class="width-50% border card">
+              <div class="width-50% border card" style={{backgroundImage: `url(${Art})`}}>
                 
               </div>
             </div>
             <div class="flex col-6@lg col-12">
-              <div class="width-50% border card">
+              <div class="width-50% border card" style={{backgroundImage: `url(${Art})`}}>
                 
               </div>
           
-              <div class="width-50% border card">
+              <div class="width-50% border card" style={{backgroundImage: `url(${Art})`}}>
                 
               </div>
             </div>
