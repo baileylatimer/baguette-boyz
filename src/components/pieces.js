@@ -45,7 +45,7 @@ class Pieces extends React.Component {
         </div>
         <div class="grid border-top flex">
           <div class="col-6@md col-12 padding-sm">
-            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate libero vitae feugiat diam leo. Venenatis sapien in malesuada.</p>
+            <p class="">IcyMeta presents Baguette Boyz: A web 3, timeless, narrative-based collection of 4,824 Baguette Boyz alive and well on Ethereum Blockchain.</p>
           </div>
           <div class="col-6@md col-12">
             <a class="btn btn--primary btn--lg height-100%" href="openseas.io" target="_blank">See full collection</a>

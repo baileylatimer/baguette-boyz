@@ -26,12 +26,6 @@ export default function HTML(props) {
     __html: `
 
 
-    document.body.addEventListener('click', function() {
-      alert('JavaScript!')
-    })
-
-    console.log('Plain JavaScript inside Gatsby!');
-
 
 (function() {
   var Accordion = function(element) {
@@ -41,9 +35,7 @@ export default function HTML(props) {
     this.showClass = 'accordion'+this.version+'__item--is-open';
     this.animateHeight = (this.element.getAttribute('data-animation') == 'on');
     this.multiItems = !(this.element.getAttribute('data-multi-items') == 'off'); 
-    // deep linking options
     this.deepLinkOn = this.element.getAttribute('data-deep-link') == 'on';
-    // init accordion
     this.initAccordion();
   };
 
@@ -128,7 +120,7 @@ export default function HTML(props) {
   Accordion.prototype.initDeepLink = function() {
     if(!this.deepLinkOn) return;
     var hash = window.location.hash.substr(1);
-    if(!hash || hash == '') return;
+    if(!hash || hash == '') return; 
     var trigger = this.element.querySelector('.js-accordion__trigger[aria-controls="'+hash+'"]');
     if(trigger && trigger.getAttribute('aria-expanded') !== 'true') {
       this.animateAccordion(trigger, false, true);

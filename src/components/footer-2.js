@@ -8,7 +8,7 @@ class Footer2 extends React.Component {
 
     return (
 
-      <footer class="padding-y-lg margin-top-lg">
+      <footer class="padding-y-lg margin-top-lg container">
         <div class="flex">
       © {new Date().getFullYear()}, Baguette Boyz
       </div>
