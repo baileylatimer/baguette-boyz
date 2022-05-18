@@ -17,7 +17,7 @@ class Social extends React.Component {
             <h2 class="">002</h2>
             <Slashes />
           </div>
-          <div class="col-8 flex justify-center padding-sm">
+          <div class="col-8 flex justify-center items-center padding-sm">
             <h2 class=" text-nowrap">Community</h2>
           </div>
         </div>

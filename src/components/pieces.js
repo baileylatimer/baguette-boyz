@@ -16,11 +16,11 @@ class Pieces extends React.Component {
             <h2 class="">001</h2>
             <Slashes />
           </div>
-          <div class="border-left border-right col-4 flex justify-center padding-sm">
+          <div class="border-left border-right col-4@lg col-8 flex justify-center  items-center padding-sm">
             <h2 class="">Pieces</h2>
           </div>
-          <div class="col-4 flex justify-center padding-sm">
-            <h2 class="">ピース</h2>
+          <div class="col-4 hide show@lg  justify-center items-center padding-sm">
+            <h2 class="text-center">ピース</h2>
           </div>
         </div>
         <div class="grid border-bottom">

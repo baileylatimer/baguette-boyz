@@ -44048,24 +44048,28 @@ const Navigation = ({
 }) => {
   const [hasItems, quantity] = useQuantity();
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
-    className: "width-100% border-bottom position-fixed z-index-3 flex justify-center"
+    className: "width-100vw border-bottom position-fixed z-index-3 flex justify-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["Container"], {
-    className: "flex justify-between width-100%"
+    class: "flex justify-between width-100%"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
-    className: "glitch color-contrast-higher text-md",
-    "data-text": siteTitle,
+    className: "glitch color-contrast-higher font-display",
+    "data-text": "Baguette Boyz",
     to: "/"
-  }, siteTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: ""
+  }, "Baguette Boyz"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "menu-right flex items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
-    className: "glitch color-contrast-higher text-md",
-    "data-text": "Blog",
-    to: "/"
-  }, "Blog"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
-    className: "glitch color-contrast-higher text-md margin-left-sm",
-    "data-text": "Contact",
-    to: "/"
-  }, "Contact"))));
+    className: "color-contrast-higher",
+    "data-text": "About",
+    to: "/about"
+  }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
+    className: "color-contrast-higher",
+    "data-text": "Roadmap \xA0 Utility",
+    to: "/roadmap"
+  }, "Roadmap & Utility"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
+    className: "btn btn--primary",
+    "data-text": "Connect Wallet",
+    to: "/mint"
+  }, "Connect"))));
 };
 
 Navigation.propTypes = {
@@ -44106,10 +44110,11 @@ const Container = _emotion_styled__WEBPACK_IMPORTED_MODULE_0__["default"].div`
   justify-content: space-between;
   align-items: baseline;
   margin: 0 auto;
-  max-width: 1660px;
+  width: 100%;
+  max-width: 2000px;
 `;
 const MenuLink = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_0__["default"])(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"])`
-
+  margin-left: var(--space-sm);
 `;
 const CartCounter = _emotion_styled__WEBPACK_IMPORTED_MODULE_0__["default"].span`
   background-color: black;
@@ -44270,7 +44275,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const Wrapper = _emotion_styled__WEBPACK_IMPORTED_MODULE_3__["default"].div`
   margin: 0 auto;
-  max-width: 1660px;
+  max-width: 2000px;
 `;
 
 const Layout = ({
@@ -44279,28 +44284,8 @@ const Layout = ({
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_provider_ContextProvider__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_styles__WEBPACK_IMPORTED_MODULE_5__["GlobalStyle"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "noise"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Navigation__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    siteTitle: "MHM"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, null, children)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
-    className: "width-100% bg-contrast-higher"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "content flex justify-between color-bg padding-top-md"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    className: "text-md color-bg",
-    "data-text": "Blog",
-    to: "/"
-  }, "Blog"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    className: "text-md color-bg margin-left-sm",
-    "data-text": "Contact",
-    to: "/"
-  }, "Contact")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "flex text-md color-bg "
-  }, "\xA9 ", new Date().getFullYear(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "hide show@md"
-  }, ", Built with", ` `, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://www.gatsbyjs.org"
-  }, "Gatsby"), " + ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://www.shopify.com"
-  }, "Shopify"))))));
+    siteTitle: "Baguette Boyz"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, null, children)));
 };
 
 Layout.propTypes = {

@@ -15,7 +15,7 @@ class Faq extends React.Component {
             <h2 class="">003</h2>
             <Slashes />
           </div>
-          <div class="border-left border-right col-4 flex justify-center padding-sm">
+          <div class="border-left border-right col-4 flex justify-center items-center padding-sm">
             <h2 class="">FAQ</h2>
           </div>
           <div class="col-4 flex justify-center padding-sm">
@@ -26,12 +26,12 @@ class Faq extends React.Component {
           <div class="col-12">
             
 
-            <section class="flex flex-column padding-md">
-              <div class="container">
+            <section class="flex flex-column padding-md@lg">
+              <div class="">
 
                 <ul class="accordion  js-accordion" data-animation="on" data-multi-items="on">
 
-                  <div class="border radius-lg">
+                  <div class="border radius-lg@lg">
                     <li class="accordion__item  js-accordion__item ">
                       <button class="reset accordion__header padding-y-sm padding-x-md js-tab-focus" type="button">
                         <h4 class="text-md text-uppercase">What does the roadmap look like?</h4>
@@ -52,7 +52,7 @@ class Faq extends React.Component {
                     </li>
                   </div>
 
-                  <div class="border radius-lg margin-top-sm">
+                  <div class="border radius-lg@lg margin-top-sm@lg">
                     <li class="accordion__item  js-accordion__item ">
                       <button class="reset accordion__header padding-y-sm padding-x-md js-tab-focus" type="button">
                         <h4 class="text-md text-uppercase">What marketplace will baguette boyz be listed on?</h4>
@@ -73,7 +73,7 @@ class Faq extends React.Component {
                     </li>
                   </div>
 
-                  <div class="border radius-lg margin-top-sm">
+                  <div class="border radius-lg@lg margin-top-sm@lg">
                     <li class="accordion__item  js-accordion__item ">
                       <button class="reset accordion__header padding-y-sm padding-x-md js-tab-focus" type="button">
                         <h4 class="text-md text-uppercase">Who is the team behind baguette boyz?</h4>
