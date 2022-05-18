@@ -9,14 +9,16 @@ import Twitter from "~/components/elements/twitter"
 
 const CardTeam = props => (
   
-    <li className={props.classes + " reveal-fx reveal-fx--translate-up "}>
-        <div className="card card-v9" to={ "/work/" + props.url}  >
-          <Image filename={props.img} alt={props.name}/>
+    <li className={props.classes + " reveal-fx reveal-fx--translate-up "}  style={{backgroundImage: `url(${props.img})`}}>
+        <div className="" >
+          {/* <Image filename={props.img} alt={props.name}/> */}
             <div class="card-v9__content padding-top-sm adv-gallery-v3__img-link">
-                <div class="padding-bottom-sm max-width-xxs">
+                <div class="padding-bottom-sm max-width-xxs flex justify-between items-center padding-sm">
+                  <div class="flex flex-column">
                     <p class="color-contrast-higher margin-bottom-xxs text-md">{props.name}</p>
                     <p class="color-contrast-higher margin-bottom-xxs text-md">{props.title}</p>
-                    <a href={props.twitter}><Twitter/></a>
+                  </div>
+                  <a href={props.twitter}><Twitter/></a>
                 </div>
             </div>
         </div>

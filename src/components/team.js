@@ -1,6 +1,9 @@
 import React from 'react';
 import Slashes from "~/components/elements/slashes"
 import CardTeam from "~/components/elements/card-team"
+import Alde from "~/images/team--alde.jpg"
+import Tyler from "~/images/team--tyler.jpg"
+import Bailey from "~/images/team--bailey.jpg"
 import Image from "~/components/pic"
 
 class Team extends React.Component {
@@ -27,26 +30,24 @@ class Team extends React.Component {
           </div>
         </div>
         <div class="grid border-bottom">
-          <div class="flex col-6@lg col-12">
-
-            <CardTeam class=" col-12" name="Alde Nguyen" twitter="https://twitter.com/alde_nguyen" title="Co-Founder" img="team--alde.jpg" />
-          </div>
-          <div class="flex col-6@lg col-12">
-            <div class="width-50% border card">
-
+        <div class="flex col-6@lg col-12">
+            <div class="width-50% border">
+              <div class="card card--team" style={{backgroundImage: `url(${Alde})`}}></div>
+              <CardTeam class="" name="Alde Nguyen" twitter="https://twitter.com/alde_nguyen" title="Co-Founder" img="team--alde.jpg" />
             </div>
 
-            <div class="width-50% border card">
-
+            <div class="width-50% border">
+              <div class="card card--team" style={{backgroundImage: `url(${Tyler})`}}></div>
+              <CardTeam class="" name="Tyler Gordon" twitter="https://twitter.com/alde_nguyen" title="Co-Founder" img="team--alde.jpg" />
             </div>
           </div>
-        </div>
-        <div class="grid border-top flex">
-          <div class="col-6@md col-12 padding-sm">
-            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate libero vitae feugiat diam leo. Venenatis sapien in malesuada.</p>
-          </div>
-          <div class="col-6@md col-12">
-            <a class="btn btn--primary btn--lg height-100%" href="openseas.io" target="_blank">See full collection</a>
+          <div class="flex col-6@lg col-12">
+            <div class="width-50% border">
+              <div class="card card--team" style={{backgroundImage: `url(${Bailey})`}}></div>
+              <CardTeam class="" name="Bailey Latimer" twitter="https://twitter.com/latimer2k" title="Web Design/Dev" img="team--bailey.jpg" />
+            </div>
+
+
           </div>
         </div>
       </div>
