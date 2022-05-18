@@ -18,7 +18,7 @@ const CardTeam = props => (
                     <p class="color-contrast-higher margin-bottom-xxs text-md">{props.name}</p>
                     <p class="color-contrast-higher margin-bottom-xxs text-md">{props.title}</p>
                   </div>
-                  <a href={props.twitter}><Twitter/></a>
+                  <a class="hide show@lg" href={props.twitter}><Twitter/></a>
                 </div>
             </div>
         </div>
