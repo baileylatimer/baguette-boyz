@@ -19,10 +19,10 @@ class Team extends React.Component {
             <h2 class="">001</h2>
             <Slashes />
           </div>
-          <div class="border-left border-right col-4 flex justify-center padding-sm">
+          <div class="border-left border-right col-4 flex justify-center items-center padding-sm">
             <h2 class="">Team</h2>
           </div>
-          <div class="col-4 flex justify-center padding-sm">
+          <div class="col-4 flex justify-center items-center padding-sm">
             <h2 class="">チーム</h2>
           </div>
         </div>

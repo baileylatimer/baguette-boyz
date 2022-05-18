@@ -35,7 +35,7 @@ const Navigation = ({ siteTitle }) => {
           About
           </MenuLink>
           <MenuLink className="color-contrast-higher" data-text='Roadmap &nbsp; Utility' to='/roadmap'>
-            Roadmap & Utility
+            Roadmap
           </MenuLink>
           <MenuLink className="btn btn--primary" data-text='Connect Wallet' to='/mint'>
             Connect
