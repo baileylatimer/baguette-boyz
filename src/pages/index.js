@@ -35,7 +35,7 @@ return (
     <section class="project-page  flex flex-column items-center">
 
       <div class="hero margin-top-xxl">
-        <h1 class="text-xxxxl color-contrast-higher  text-center font-display">Baguette Boyz</h1>
+        <h1 class="text-xxxxl color-contrast-higher text-center font-display glitch" data-text='Baguette Boyz'>Baguette Boyz</h1>
       </div>
       <Hero />
       <ScrollingText />
