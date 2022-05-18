@@ -46,7 +46,7 @@ class Faq extends React.Component {
 
                       <div class="accordion__panel padding-top-xxs padding-x-md padding-bottom-md js-accordion__panel">
                         <div class="text-component line-height-md text-space-y-md">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum a ab quae quas optio ut officia quia? Modi at impedit dolorem est voluptatem facilis, beatae atque tenetur, soluta dolorum inventore sapiente laborum. Alias esse soluta porro distinctio aperiam, qui suscipit.</p>
+                          <p>You can view the roadmap <a href="/roadmap">here</a>.</p>
                         </div>
                       </div>
                     </li>
@@ -67,7 +67,7 @@ class Faq extends React.Component {
 
                       <div class="accordion__panel padding-top-xxs padding-x-md padding-bottom-md js-accordion__panel">
                         <div class="text-component line-height-md text-space-y-md">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum a ab quae quas optio ut officia quia? Modi at impedit dolorem est voluptatem facilis, beatae atque tenetur, soluta dolorum inventore sapiente laborum. Alias esse soluta porro distinctio aperiam, qui suscipit.</p>
+                          <p>Opensea.io — Any other marketplaces listing the collection is not authorized by us at this time, do not buy as we can't verify authenticity.</p>
                         </div>
                       </div>
                     </li>
@@ -88,7 +88,7 @@ class Faq extends React.Component {
 
                       <div class="accordion__panel padding-top-xxs padding-x-md padding-bottom-md js-accordion__panel">
                         <div class="text-component line-height-md text-space-y-md">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum a ab quae quas optio ut officia quia? Modi at impedit dolorem est voluptatem facilis, beatae atque tenetur, soluta dolorum inventore sapiente laborum. Alias esse soluta porro distinctio aperiam, qui suscipit.</p>
+                          <p>Baguette Boyz is being built by AG3 Labs. You can see the full team <a href="/about">here</a>.</p>
                         </div>
                       </div>
                     </li>
