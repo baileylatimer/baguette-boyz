@@ -20,7 +20,7 @@ class Hero extends React.Component {
           <div class="col-10@lg col-12 border-left flex-column justify-between  height-100% width-100%">
             <div class="border-bottom flex items-center justify-between padding-sm">
               <Slashes />
-              <h2 class="text-nowrap">114 days</h2>
+              <h2 class="text-nowrap padding-x-sm">114 days</h2>
               <Slashes />
             </div>
             <div class="icebox card card--team" style={{backgroundImage: `url(${Cover})`}}>
