@@ -8,7 +8,7 @@ class Faq extends React.Component {
 
     return (
 
-      <div class="border radius-lg container margin-top-md">
+      <div class="border radius-lg container margin-top-md" id="faq">
         <div class="grid border-bottom">
           <div class="flex justify-between col-4 items-center padding-sm">
             <Slashes />

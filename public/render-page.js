@@ -44052,12 +44052,20 @@ const Navigation = ({
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     class: "flex justify-between width-100%"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
-    className: "glitch color-contrast-higher font-display",
+    className: "glitch color-contrast-higher font-display hide show@lg",
     "data-text": "Baguette Boyz",
     to: "/"
-  }, "Baguette Boyz"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Baguette Boyz"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
+    className: "glitch color-contrast-higher font-display hide@lg",
+    "data-text": "BB",
+    to: "/"
+  }, "BB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "menu-right flex items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
+    className: "color-contrast-higher",
+    "data-text": "projects",
+    to: "#projects"
+  }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
     className: "color-contrast-higher",
     "data-text": "About",
     to: "/about"
@@ -44065,7 +44073,7 @@ const Navigation = ({
     className: "color-contrast-higher",
     "data-text": "Roadmap \xA0 Utility",
     to: "/roadmap"
-  }, "Roadmap & Utility"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
+  }, "Roadmap"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
     className: "btn btn--primary",
     "data-text": "Connect Wallet",
     to: "/mint"

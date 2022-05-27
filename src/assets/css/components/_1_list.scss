@@ -21,6 +21,10 @@ Usage: codyhouse.co/license
     padding-left: calc(var(--space-xs) * var(--list-offset, 1));
   }
 
+  ol li {
+    list-style: circle !important;
+  }
+
   li {
     padding-bottom: calc( var(--space-xxxs) * var(--list-v-space, 1));
     margin-bottom: calc( var(--space-xxxs) * var(--list-v-space, 1));

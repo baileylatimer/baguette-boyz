@@ -37,6 +37,24 @@ return (
       <div class="hero margin-top-xxl">
         <h1 class="text-xxxxl color-contrast-higher  text-center font-display glitch" data-text='Roadmap'>Roadmap<br></br> & Utility</h1>
       </div>
+
+<div class="container">
+  <ol>
+    <li>The Fridge<br></br>
+      Baguette Boyz Ecosystem
+    </li>
+    <br></br>
+    <li>
+      The Berg<br></br>
+      Parliamentary House of BB Genesis<br></br>
+      Experimental BB Brand Direction <br></br>
+      Project, Platform Incubation <br></br>
+      Allocation of Berg Treasury Funds
+
+    </li>
+  </ol>
+</div>
+
       <ScrollingText />
       <Footer2 />
       <Snowflakes />

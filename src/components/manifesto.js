@@ -4,14 +4,14 @@ import Discord from "~/components/elements/discord"
 import Twitter from "~/components/elements/twitter"
 import SocialArt from "~/images/art/social.png"
 
-class Social extends React.Component {
+class Manifesto extends React.Component {
 
 
   render(){
 
     return (
 
-      <div class="border radius-lg container margin-top-md" id="social">
+      <div class="border radius-lg container margin-top-md">
         <div class="grid border-bottom">
           <div class="flex justify-between col-4 items-center padding-sm border-right">
             <Slashes />
@@ -19,13 +19,14 @@ class Social extends React.Component {
             <Slashes />
           </div>
           <div class="col-8 flex justify-center items-center padding-sm">
-            <h2 class="text-nowrap">Social</h2>
+            <h2 class="text-nowrap">Manifesto</h2>
           </div>
         </div>
         <div class="grid border-bottom">
-          <div class="col-12 border-right card"  style={{backgroundImage: `url(${SocialArt})`}}>
-            
-          </div>
+<p class="padding-xl">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         </div>
         <div class="grid border-top">
           <div class="col-6">
@@ -47,4 +48,4 @@ class Social extends React.Component {
 }
 
 
-export default Social;
+export default Manifesto;

@@ -10,7 +10,7 @@ class Pieces extends React.Component {
 
     return (
 
-      <div class="border radius-lg container margin-top-md">
+      <div class="border radius-lg container margin-top-md" id="projects">
         <div class="grid border-bottom">
           <div class="flex justify-between col-4 items-center padding-sm">
             <Slashes />
@@ -18,7 +18,7 @@ class Pieces extends React.Component {
             <Slashes />
           </div>
           <div class="border-left border-right col-4@lg col-8 flex justify-center items-center padding-sm">
-            <h2 class="">Pieces</h2>
+            <h2 class="">Projects</h2>
           </div>
           <div class="col-4 hide show@lg  justify-center items-center padding-sm">
             <h2 class="text-center">ピース</h2>

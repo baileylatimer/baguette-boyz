@@ -31,6 +31,9 @@ const Navigation = ({ siteTitle }) => {
 					BB
 				</MenuLink>
         <div class="menu-right flex items-center">
+        <MenuLink className="color-contrast-higher" data-text='home' to='/'>
+          Home
+          </MenuLink>
           <MenuLink className="color-contrast-higher" data-text='About' to='/about'>
           About
           </MenuLink>

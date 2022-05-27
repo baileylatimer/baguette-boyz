@@ -9,6 +9,7 @@ import Image from "../components/pic"
 import Hero from "~/components/hero"
 import ScrollingText from "~/components/scrolling-text"
 import Team from "~/components/team"
+import Manifesto from "~/components/manifesto"
 import Social from "~/components/social"
 import Faq from "~/components/faq"
 import Footer2 from "~/components/footer-2"
@@ -38,6 +39,7 @@ return (
         <h1 class="text-xxxxl color-contrast-higher text-center font-display glitch" data-text='about'>About</h1>
       </div>
       <Team />
+      <Manifesto/>
       <ScrollingText />
       <Footer2 />
       <Snowflakes />

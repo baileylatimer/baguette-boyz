@@ -33,12 +33,12 @@ class Team extends React.Component {
         <div class="flex col-6@lg col-12">
             <div class="width-50% border">
               <div class="card card--team" style={{backgroundImage: `url(${Alde})`}}></div>
-              <CardTeam class="" name="Alde Nguyen" twitter="https://twitter.com/alde_nguyen" title="Co-Founder" img="team--alde.jpg" />
+              <CardTeam class="" name="Alde Nguyen" twitter="https://twitter.com/aldeswag" title="Co-Founder" img="team--alde.jpg" />
             </div>
 
             <div class="width-50% border">
               <div class="card card--team" style={{backgroundImage: `url(${Tyler})`}}></div>
-              <CardTeam class="" name="Tyler Gordon" twitter="https://twitter.com/alde_nguyen" title="Co-Founder" img="team--alde.jpg" />
+              <CardTeam class="" name="Tyler Gordon" twitter="https://twitter.com/aldeswag" title="Co-Founder" img="team--alde.jpg" />
             </div>
           </div>
           <div class="flex col-6@lg col-12">

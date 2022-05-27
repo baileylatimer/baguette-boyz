@@ -20,6 +20,7 @@ const NotFoundPage = () => (
           <div class="border-left border-right col-8 flex justify-center items-center padding-sm">
             <h2 class="">Loading...</h2>
           </div>
+          <ScrollingText />
   
         </div>
       </div>
