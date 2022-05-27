@@ -10,6 +10,7 @@ import Hero from "~/components/hero"
 import ScrollingText from "~/components/scrolling-text"
 import Team from "~/components/team"
 import Manifesto from "~/components/manifesto"
+import Partners from "~/components/partners"
 import Social from "~/components/social"
 import Faq from "~/components/faq"
 import Footer2 from "~/components/footer-2"
@@ -40,6 +41,7 @@ return (
       </div>
       <Team />
       <Manifesto/>
+      <Partners/>
       <ScrollingText />
       <Footer2 />
       <Snowflakes />

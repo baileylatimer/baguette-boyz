@@ -4,7 +4,7 @@ import Discord from "~/components/elements/discord"
 import Twitter from "~/components/elements/twitter"
 import SocialArt from "~/images/art/social.png"
 
-class Manifesto extends React.Component {
+class Partners extends React.Component {
 
 
   render(){
@@ -15,11 +15,11 @@ class Manifesto extends React.Component {
         <div class="grid border-bottom">
           <div class="flex justify-between col-4 items-center padding-sm border-right">
             <Slashes />
-            <h2 class="">002</h2>
+            <h2 class="">003</h2>
             <Slashes />
           </div>
           <div class="col-8 flex justify-center items-center padding-sm">
-            <h2 class="text-nowrap">Manifesto</h2>
+            <h2 class="text-nowrap">Partners</h2>
           </div>
         </div>
         <div class="grid border-bottom">
@@ -37,4 +37,4 @@ Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit 
 }
 
 
-export default Manifesto;
+export default Partners;
